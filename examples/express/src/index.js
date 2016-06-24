@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Profile from './components/Profile';
+import Profile from './components/profile/profile';
 import styles from './styles';
 
 ReactDOM.render(

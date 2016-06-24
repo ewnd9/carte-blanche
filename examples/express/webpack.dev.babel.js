@@ -29,7 +29,8 @@ module.exports = {
       template: path.join(__dirname, './src/index.html'),
     }),
     new CarteBlanche({
-      componentRoot: 'src/components',
+      componentRoot: './src/components',
+      filter: /(.*)\/(\1)\.js$/
     }),
   ],
   module: {
